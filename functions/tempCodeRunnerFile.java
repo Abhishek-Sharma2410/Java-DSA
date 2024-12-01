@@ -1,0 +1,1 @@
+if(number==1 || number==0) return fact;

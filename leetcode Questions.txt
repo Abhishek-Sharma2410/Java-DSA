@@ -1,0 +1,27 @@
+Leetcode Questions 
+
+1. Easy 
+
+  (a). Single Number.
+  (b). Majority Element.
+  (c). Contains Duplicate.
+  (d). Missing number.
+  (e). Move Zeros.
+  (f). Kids with the greatest number of candies
+  (g). Shuffle the Array.
+  (h). Concatenation of the Array.
+  (i). Convert the Temperature.
+  (j). Number of employees who met the target.
+  (k). Count pairs whose sum is less than target.
+  (l). Minimum Number Game.
+  (m). Find minimum number of Operations to make all elements divisible by three.
+  (n). find if Digit game can be won.
+
+
+2. Medium 
+
+  (a). Maximum Subarray sum.
+
+3. Hard
+
+  (a). Trapping Rainwater.  

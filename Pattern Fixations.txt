@@ -1,0 +1,39 @@
+pattern fixations that I learned while revision
+
+1. if we have to carry out an expression in which we have to print one star in first line and two star in second line and three star in third line and so on. Always write a loop
+   which is given below.
+
+   for(int i=0; i<n; i++){
+	for(int j=0; j<=i; j++){
+		System.out.print("*");
+	}
+	System.out.println();
+   }
+
+2. if we have to carry out an expression in which we have to print n-1 spaces on the first line and n-2 spaces on the second line and so on then try the loop
+
+   for(int i=0; i<n; i++){
+     for(int j=0; j<n-i-1; i++){
+		System.out.print(" ");
+     }
+     System.out.println();
+   }
+
+3. if we have to print data in format like 
+
+1234
+123
+12
+1
+
+use loop
+
+for(int i=0; i<n; i++){
+     int number = 1;
+     for(int j=n-i; j>0; j--){
+	System.out.print(number);
+        number++:
+     } 
+     System.out.println();
+}
+	

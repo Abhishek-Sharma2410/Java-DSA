@@ -1,0 +1,497 @@
+DSA in Java :- Started on (26/10/2024)
+
+    Chapter - 1 (Basic I/O Operations, Datatypes and Variables, Typeconversion, Typecasting, Typepromotion)
+
+        1. What are the ways to take input in java.
+        2. What are the ways to produce the output in java.
+        3. What are Variables.
+        4. What are the different Datatypes in java
+        5. What is Typecasting.
+        6. What is Typeconversion.
+        7. What is Typepromotion in java.
+        8. How the code runs in java.
+        9. What are the naming convention of variables in java.
+
+
+    Chapter - 2 (Conditionals)
+
+        1. What are the conditionals in java.
+        2. What are ternary operator in java.
+        3. Write a program in java to calculate income tax based on the current senarios.
+        4. Write a program to calculate largest of three using ternary operators.
+        5. What are switch operators.
+        6. Write a program to demonstrate calculator like thing using switch statement.
+        7. Write a program to find if a entered number is even or odd.
+        8. Write a program to find if the entered letter is in lower case or upper case.
+        9. Write a program to find if a given number is positive or not.
+        10. Write a program to find if a given year is a leap year or not.
+
+            Hint: A year is a leap year if it is divisible by 4 or 100 and 400 collectively.
+
+
+    Chapter - 3 (Looping)
+
+        1. Write a program to find the sum of first N natural numbers.
+        2. Write a program to print the reverse of a given number.
+        3. Write a program in java to find is a number is prime or not with the optimal solution.
+        4. Write a program which takes two inputs first input is how many number you want to enter and the next are all the numbers you have to find the sum of even and odd values saparetly and print it.
+        5. Write a program to find the factorial of a number.
+        6. Write a java program to check whether a Number can be expressed as a Sum of Two Prime Numbers.(we have to check that if the number can be formed by the addition of its any two prime numbers between 2 to the number itself) -> Good question from pw assignment
+
+    Chapter - 4 (functions)
+
+        1. Write a function to find the sum of a and b parameters.
+        2. Write a function to find the product of a and b.
+        3. Write a function to find the factorial of a number (Handle all the edge cases).
+        4. Write a function to find binomial coefficient of n and r given by user.
+        5. Write a function to find if a given number is prime or not.
+        6. Write a function to find the prime number in a given range.
+        7. Write a function to print nth fibonacci number.
+        8. Write a program that demonstrates function overloading.
+
+
+    Chapter - 5 (Binary Number System)
+
+        1. Write a function that converts a given binary number into decimal number.
+        2. Write a function that converts a given decimal number into binary number.
+        3. Write a function that returns true if the Binary equivalent of a number containes even number of zero's in it other wise it return false. (TCS Assignment Question).
+        
+    Chapter - 6 (Pattern Printing)
+
+        1. *
+           **
+           *** 
+           ****
+
+        2. ****
+           ***
+           **
+           *
+
+        3. 1
+           12 
+           123
+           1234
+
+        4. A
+           BC 
+           DEF
+           GHIJ
+           
+        5. 1
+           22
+           333
+           4444
+
+        6. 1
+           21
+           321
+           4321
+
+        7. 1
+           23
+           456
+           78910
+        
+        8.    1
+             121
+            12321
+           1234321
+
+        9. *      *
+           **    **
+           ***  ***
+           ********  
+           ***  ***
+           **    **
+           *      *
+
+        10. 1234554321
+            1234  4321
+            123    321
+            12      21 
+            1        1
+
+        11. 123456787654321
+            1234567 7654321
+            123456   654321
+            12345     54321
+            1234       4321
+            123         321
+            12           21
+            1             1
+            
+        12.         A 
+                   ABC
+                  ABCDE 
+                 ABCDEFG
+                ABCDEFGHI
+                 ABCDEFG     
+                  ABCDE
+                   ABC
+                    A
+
+         13. Write the programs to print the patterns given below with the help of functions
+
+            13. ***** (WAF for printing this hollow pattern)
+               *   *
+               *   *
+               *****
+
+            14. *   * (WAF to print this X which is the diagonal of a matrix)
+                 * *
+                  *
+                 * *
+                *   *   
+
+            15. 1 (0-1 Triangle)
+                01
+                101
+                0101
+                10101
+
+            16. Butterfly Pattern (Try to do it with shradha didi approach of three concepts)
+               
+               *      *
+               **    **
+               ***  ***
+               ********
+               ********
+               ***  *** 
+               **    **
+               *      *
+
+            17.  *****
+                *****
+               *****
+              *****
+             *****
+
+            18. Hollow Rhombus (Hollow Rhombus is just a tilted hollow rectangle we can tilt a rectangle by printing some spaces before it starts)
+
+                 *****
+                *   *
+               *   *
+              *   *
+             *****
+             
+            19.      *
+                    ***
+                   *****
+                  *******
+                   *****
+                    ***
+                     *  
+
+            20.    1
+                  212
+                 32123
+                4321234
+               543212345      
+
+            21.    1
+                  2 2 
+                 3 3 3
+                4 4 4 4
+               5 5 5 5 5        
+
+   Chapter - 7 (Arrays Data Structure)
+
+        1. Write a program to demonstrate how arrays are declared in java.
+        2. Write a demonstrate how to take input of array in java .
+        3. Write a function to pass an array in a function (Demonstartion of pass by reference).
+        4. Write a function for linear Searching in the array.
+        5. Write a function that returns maximum and minimum value of the array and write a seperate function to find the second largest element in the array.
+        6. Write a function for Binary search.
+        7. Write a function to reverse an array.
+        8. Write a program to print all the subarrays.
+        9. Write a program to print all the pairs of values the array and also find the total number of pairs of any array (This could be asked by the interviewer). 
+        10. Write a function which returns maximum sum of any subarray.
+        11. Write a function to swap the minimum and maximum value in the array.
+	     12. Write a function to print all the unique values in the array. (This is taken as a condition that there can be multiple unique values in the array)(This questions can be done by the help of hashsets)
+	     13. Write a function to print the intersection of the array.
+	    
+            Eg - int arr[] = {1,2,3,4,5}
+               int arr2[] = {3,4,5,6,7,8,9}
+               The intersection of both the arrays is 3,4,5
+
+	      14. Given two arrays a[] and b[] of same size.Your task is to find the minimum sum of two elements such that they belong to different arrays and are not at the same index. Here 1<size<101
+	    
+            Eg - int arr[] = {5,6,10,4,9}
+               int arr2[] = {1,2,3,4,5}
+               The minimum possible sum from these two arrays is 5 (4(from first array)+1(from second array))
+
+	      15.  Given an array containing n distinct integers in the range [0,n] (inclusive of both 0 and n). Find and return the only number of the range that is not present in the array. Here 1<n<101. (Do it with optimal approach)
+	    
+            Eg - int arr[] = {3,0,1}
+               The leftover element between the range [0,3] in the array is 2
+
+               int arr[] = {8,6,4,2,3,5,0,1}
+               The leftover element between the range [0,8] in the array is 7
+
+	      16. Do the question from PW Assignment Array - 1,2,3 (Some questions are directly from leetcode)	
+
+	      17. Ignite Series from TCS Assignment.
+
+         18. Write different functions for finding the maximum sum of subarray Brute force, Prefix Sum, kadane's Algorithm.	
+
+         19. Write a program for trapping rainwater classical question Hard Level. 
+
+
+        Assignment Questions 
+
+        20. Write a program which returns true if any value appears twice in the array return false if every element is distinct. (Brute force technique takes binomial time complexity and optimal technique takes linear but optimal solution needs the hashsets).
+
+        21. Write a function that returns true if the array is sorted and if the array is not sorted return false.
+
+        22. Write a function that returns how many unique elements are there in the array given to us after removing all the duplicates from the array. (This question is asked in many interviews).
+
+        23. Write a program to reverse an array by n places fristly write the code to rotate the array by 1 place and then write the code to shift the array by n places.
+
+        24. Move Zeros to the end. We have given an array and we have to push all the zeros to the end of the array
+
+        Example [1,2,0,3,4,5,0,0,1]
+
+        Output [1,2,3,4,5,1,0,0,0]
+
+   Chapter - 8 (Basic Sorting Techniques)
+
+        1. Write a program that have different functions for different types of sorting (Bubble sorting(Handle the already sorted edge case), Selection sorting, insertion sorting, Counting sorting).
+        2. Write a function to sort the given array using inbuilt function (Arrays.sort(array_name)) .
+        3. Write a function which sorts an array in decreasing order using intbuilt sort function.
+        4. Write a function for counting sorting.
+        5. Write a program that prints the second largest, second smallest element of the array. (Asked in Accenture).
+           
+           (Sub TCS Assignment Question based on counting sort logic)
+
+           1. Given an array on n size we have to count the frequency of every number of the array and return the count of every number in the given form of test case.
+
+           Example 1: [1,1,2,3,1,2,2,3,2,1,5]
+           0-0
+           1-4
+           2-4
+           3-2
+           4-0
+           5-1
+
+   Chapter - 9 (2-Dimensional Arrays)
+
+        1. Write a program to demonstrate the declaration of 2-D Arrays and how to take input from user in 2-D Arrays.
+        2. Write a function to search any element in the 2-D Array.
+        3. Write a function which returns the largest and smallest element of the 2-D Array.
+        4. FAANG Question (Print the sprial Matrix).
+
+           1 2  3  4 
+           5 6  7  8
+           9 10 11 12
+          13 14 15 16
+
+        5. FAANG Question (Find the diagonal Sum).
+
+           1 2  3  4 
+           5 6  7  8
+           9 10 11 12
+          13 14 15 16
+
+        6. FAANG Question (Search in the sorted Matrix)
+
+           10 20 30 40
+           15 25 35 45
+           27 29 37 48
+           32 33 39 50
+
+           find a key which is given as a target best optimal approach is staircase 
+           approach.
+
+   Chapter - 10 (Strings)
+
+        1. Write a program to demonstrate how strings are declared and taken as an input in java and how to give output.
+        2. Write a demonstration of string length function and string concatenation in java.
+        3. Write a function that counts the number of vowels in a given string (Exploration of charAt() method).
+        4. Write a function that returns true if the string is palindrome otherwise it returns false.
+        5. Good Question (Shortest path).
+
+           Given a route containing 4 directions (N,E,W,S) find the shortest path to reach destination (Note: We have to move one unit in each direction).
+           
+           Direction "WNEENESENNN"
+
+        6. Write a program for demonstration of strings comparison in java.
+        7. Write a function to find the substring of the string without using a string function.
+        8. Write a program which prints the largest string in lexicographic order.
+           strings="Apple", "Mango", "Banana"
+           output: "Mango"
+        9. Write a program that returns true if the given two strings are anagrams otherwise it returns false.
+
+           Anagrams are the strings which contains same number of alphabets in the same frequency.
+           for Example - abba, aabb 
+           
+        10. Write a function which returns maximum sum of any subarray.
+        11. Write a function to swap the minimum and maximum value in the array.
+	     12. Write a function to print all the unique values in the array. (This is taken as a condition that there can be multiple unique values in the array)(This questions can be done by the help of hashsets)
+	     13. Write a function to print the intersection of the array.
+
+   Chapter-11 (String Builder Data Structure)
+
+        1. Write a program to demonstrate how StringBuilder is created in java.
+        2. Write a program to demonstrate the different functions of StringBuilder.
+        3. Write a program in which capitialize the first alphabet of each word of a paragraph.
+        4. Write a program to find if the given string is pangram or not.
+        5. Write a program to find the string compression
+           
+           Sample Input : "aaabbcccdd"
+           Sample Output : "a3b2c3d2"
+
+            
+   Chapter-12 (Bit Manipulation)
+
+        1. Write a program to demonstrate Binary operations like AND, OR, XOR, Binary One's Compliment.
+        2. Write a program to demonstrate Binary Right Shift and left shift operator.
+        3. Write a program to find if the given number is odd or Even using Binary Operator.
+        4. Write a program find the ith bit of any Binary number.
+
+           Sample Input : 2nd bit in 5
+           Sample Output : 1
+
+        5. Write a program to set the ith bit in Binary Number.
+           
+           Sample Input : 3rd bit in 10 
+           Sample Output : 2
+
+        6. Write a program to clear the ith Bit of any Number
+
+           Sample Input : 2nd Bit in 10
+           Sample Output : 8
+
+        7. Write a program to update the ith Bit of the Binary Number.
+
+           Sample Input : Update the 1st bit of 10 by 1. (10, 2, 1)
+           Sample Output : 14   
+
+        8. Write a program to clear the last ith Bits.
+
+           Sample Input : clear 2 bits from 15 we will get 12
+           Sample Output : 12
+
+        9. Write a program to find if a number is a power of 2 or not.
+
+           Sample Input : 4
+           Sample Output : true
+
+        10. Write a program to count the set bits in any Binary Number.
+
+           Sample Input : 15
+           Sample Output : 4
+           
+   Chapter-13 (Object Oriented Programming)
+
+        1. Write a program to demonstrate how to make classes and thier objects.
+        2. Write a program to demonstrate use of access modifiers.
+        3. Write a program that demonstrate the Getters and Setters functions and the use of this keyword.
+        4. Write a program to declare the constructor function in a way that we can initialize it.
+        5. Write a program to declare a copy constructor.
+        6. Write a program to demonstrate the Inheritance.
+        7. Write a program to demonstrate the single level inheritance.
+        8. Write a code to demonstrate multilevel Inheritance.
+        9. Write a code to demonstrate Hierarchial Inheritance.
+        10. Write a code to demonstrate Hybrid Inheritance.
+        11. Write down code for Method Overriding or for Run Time Polymorphism.
+        12. Write down code for implementing Abstraction with the help of Abstract Classes.
+        13. Write down a code for implementing total Abstraction using interfaces. 
+        14. Write down a code for implementing Multiple Inheritance using Interfaces.
+        15. Write down a code for clear implementation of static keyword in java.
+           
+   Chapter-14 (Recursion)
+
+      (When ever you got into programming situation in which you have to find the nth number of any series you can make use of recursion)
+
+        1. Write a program to print values from 1 to 10 in the decreasing order using recursion.
+        2. Write a program to find the sum form 1 to n using recursion.
+        3. Write a program to print the values from 1 to n using recursion.
+        4. Write a recursive function to find the factorial of a number.
+        5. Write a recursive function to find the nth fibonacci number in the sequence.
+        6. Write a recursive function to find the nth Ignite series. (This question came in TCS Test).
+           It Starts with 0, 1, 1.
+           I(n) = I(n-2) + I(n-3)
+
+
+        7. Write a recursive function which checks if a array is sorted or not.
+        8. Write a recursive function that returns the first occurence and the last occurence of a given key in the array.
+        9. Write a recursive function to find the x to the power n.
+        10. Write a recursive code for tiling problem.
+        11. Write down recursive code for remove duplicate form the given string.
+        12. Write a recursive function for friends pairing problem.
+        13. Write a code for Binary Strings Problem.
+           
+   Chapter-15 (Divide and Conquer Algorithm)
+
+      (Divide the problem into smaller parts using recursion)
+
+        1. Write a program for Merge Sort.
+        2. Write a program for Quick Sort.
+        3. Write a program for search in sorted and rotated array.
+
+         Assignment Questions
+
+        4. Write a merge sort fucntion that sorts a array of string lexicographically.
+        5. Write a program to find the Majority Element
+           
+   Chapter-16 (BackTracking Algorithm)
+
+        1. Write a program to print the array assigning value i+1 to the particular ith index and while returning -2 in each value.
+        2. Write a program to print all the sub sets of given string set.
+        3. Write a program to print all Binary SubStrings.
+        4. Write a program to print all String Permutations.
+        4. Write a program to provide N Queen's Solution.
+        5. Write a program for Sudoku Solver Problem.
+        6. Write a program to find the total number of ways to reach from top left corner to bottom right corner. (Grid Ways)
+
+   Chapter-17 (ArrayLists DataStructure)
+
+        1. Write a program to demonstrate the Arraylists in Java and to perform all the operations on a ArrayList.
+        2. Write a program to reverse an ArrayList.
+        3. Write a program to print the maximum of the ArrayList.
+        4. Write a program to demonstrate how 2D Arraylist has been created.
+        4. Write a program for Container with most water problem on leetcode. (Done on leetcode).
+        5. Write a program for the solution for Pair Sum, Given an Array and a target return the indices of two element that add up to the target. (Pair Sum - 1)
+        6. Write a program for Pair Sum - 2.
+
+   Chapter-18 (Linked List Data Structure)
+
+        1. Write a program to demonstrate how Linked List is created in Java and in the same program make a function to add a new node in starting and last of the linked list, add in the middle and remove from starting and last and how to calculate the size of linked list.
+        2. Write a program to find an element in the linked list if found return index and if not return -1 (write both iterative and recursive functions).
+        3. Write a program to reverse a linked list using iterative approach.
+        4. Write a program which finds and delete the Nth Element form the linked list.
+        4. Write a program for checking if a linked list is a palindrome or not.
+        5. Write a program for finding the cycle or loop in the Linked list.
+        6. Write a program for removing the cycle in the Linked list.
+        7. Write a program to demonstrate how an Linked list is created using java collection framework.
+        8. Write a code for Merge Sort to sort a linked list in ascending order.
+        9. Write a program for creating a zig zag linked list of a given list.
+        
+        (Doubly Linked list)
+
+        10. Write a program to demonstrate how doubly linkedlist has been created and add four functions addFirst, removeFirst, addLast, removeLast.
+        11. Write a program to find the point of intersection of two singly linked lists. 
+
+   Chapter-19 (Stacks Data Structure)
+
+        1. Write a program to demonstrate how stacks are created using Arraylist and perform all the three operations push, pop, peek.
+        2. Write a program to demonstrate how stacks are created using Linked list and perform all the three operations push, pop, peek.
+        3. Write a program to implement stack using JCF.
+        4. Write a program to reverse a string using stack.
+        4. Write a program to reverse a stack.
+        5. Write a program for next greater number problem.
+        6. Write a program for valid parenthesis problem on leetcode.
+        7. Write a program for duplicate parenthesis.
+
+   Chapter-20 (Queue Data Structure)
+
+        1. Write a program to demonstrate how Queue are created using Arrays and perform all the three operations add, remove, peek.
+        2. Write a program to demonstrate how Queue are created using Linked list and perform all the three operations add, remove, peek.
+        3. Write a program to implement Queue using JCF.
+        4. Write a program to implement queue using two stacks.
+        4. Write a program to implement stack using two queue.
+        5. Write a program for next greater number problem.
+        6. Write a program for valid parenthesis problem on leetcode.
+        7. Write a program for duplicate parenthesis.
+        

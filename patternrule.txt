@@ -1,0 +1,31 @@
+The following are the rules of pattern making in any programming language you follow
+
+1. The pattern making consists of two loops (outer loop, inner loop)
+
+ (a). Inner loop :- This loop tells the number of lines that is in the pattern.
+ (b). Outer loop :- This loop tells the count of data which has to be printed in a single line.
+ 
+ for example :- 
+
+       A    i=0  spaces -> 4 (n-i-1) data -> 1 (2n+1)
+      ABC   i=1  spaces -> 3 (n-i-1) data -> 3 (2n+1)
+     ABCDE  i=2  spaces -> 2 (n-i-1) data -> 5 (2n+1)
+    ABCDEFG i=3  spaces -> 1 (n-i-1) data -> 7 (2n+1)
+   ABCDEFGHI i=4  spaces -> 0 (n-i-1) data -> 9 (2n+1)
+ *************
+    ABCDEFG
+     ABCDE
+      ABC
+       A
+
+    (i). Outer loop - In the above pattern we divide the pattern into two parts which is seperated by the line for the above first pyramid there are five lines that has to be printed so the loop for the above pyramid look like
+
+    for(int i=0; i<n; i++) where n = 5
+
+    (ii). Inner loop - In the inner loop we has to see that what amount of data has to be printed in the above problem there are two things that has to be printed first one is space and the second one is data so in our pattern spaces are the first thing that has to be printed. Now as we can see for i=0 there are 4 spaces and for i=1 there are 3 spaces and so on so for first inner loop spaces are n-i-1 so the loop will looks like
+
+    for(int j=0; j<n-i-1; j++)
+
+    And for the second loop which is for the data (2i+1) iterations has to be followed
+
+    for(int j=0; j<(2*i)+1; j++)
