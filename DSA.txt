@@ -133,7 +133,7 @@ DSA in Java :- Started on (26/10/2024)
 
          13. Write the programs to print the patterns given below with the help of functions
 
-            13. ***** (WAF for printing this hollow pattern)
+            13.***** (WAF for printing this hollow pattern)
                *   *
                *   *
                *****
@@ -491,7 +491,66 @@ DSA in Java :- Started on (26/10/2024)
         3. Write a program to implement Queue using JCF.
         4. Write a program to implement queue using two stacks.
         4. Write a program to implement stack using two queue.
-        5. Write a program for next greater number problem.
-        6. Write a program for valid parenthesis problem on leetcode.
-        7. Write a program for duplicate parenthesis.
+        5. Write a program for finding the stream of first non-repeating character in the string.
+        6. Write a program for interleve two Queues (Similar to shuffle the array question).
+        7. Write a program for queue reversal.
+        8. Write a program to implement deque using JCF.
+        9. Write a program to implement stack using deque.
+        10. Write a program to implement queue using deque.
+
+   Chapter-21 (Greedy Algorithm)
+
+        1. Write a program for Activity Selection problem.
+
+   Chapter-22 (Binary Trees)
+
+        1. Write a program for building pre order Binary Tree using Recursion.
+        2. Write a program to traverse a tree in preorder manner.
+        3. Write a program for Level Order Traversal.
+        4. Write a program to find the height of a tree and count the total nodes in the binary tree.
+        4. Write a program to find the sum of all Nodes of a Binary Tree.
+        5. Write a program to find the diameter of the binary tree.
+        6. Write a program to find the diameter of a binary tree in a optimized TC.
+        7. Write a program sub tree of another tree problem.
+        8. Write a program for printing the kth level of a tree.
+        9. Write a program for finding the lowest common ancestor brute force and optimized in single code.
+        10. Write a code for Minimum Distance between Two Nodes in a Binary Tree.
+        11. Write a program to find the kth ancestor of a binary tree node.
+        12. Write a program to convert a tree to its sum tree.
+
+            Example:       1                      27
+                          / \                    / \
+                         2   3         =>       9   13
+                        / \ / \                / \  / \
+                       4   56  7              0   0 0  0
+
+        Home-Work Questions
+
+        12. Write a program to find if a binary tree is univalued or not (have same value in each node or not).
+
+   Chapter-23 (Binary Search Trees)
+
+        1. Write a program for building Binary Search Tree Recursion.
+        2. Write a program for Searching a Node in a BST.
+        3. Write a program for deleting a Node in BST.
+        4. Write a program for printing the values of a BST in range.
+        4. Write a program to print the path from root to leaves.
+        5. Write a program to validate a BST.
+        6. Write a program to find the mirror image of a BST (Do it inplace).
+        7. Write a program to create a balanced BST using sorted array.
+        8. Write a program find the size of largest BST in Binary Tree. (Leetcode Hard)
+        9. Write a program to merge two given BSTs to reach at a Balanced Binary Search tree.
+        10. Write a code for Minimum Distance between Two Nodes in a Binary Tree.
+        11. Write a program to find the kth ancestor of a binary tree node.
+        12. Write a program to convert a tree to its sum tree.
+
+            Example:       1                      27
+                          / \                    / \
+                         2   3         =>       9   13
+                        / \ / \                / \  / \
+                       4   56  7              0   0 0  0
+
+        Home-Work Questions
+
+        12. Write a program to find if a binary tree is univalued or not (have same value in each node or not).
         

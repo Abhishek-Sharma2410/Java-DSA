@@ -11,11 +11,15 @@ public class spiralMatrix{
             for(int i=startingrow+1; i<=endingrow; i++){
                 System.out.print(nums[i][endingcol]+" ");
             }
-            for(int i=endingcol-1; i>=startingcol; i--){
-                System.out.print(nums[endingrow][i]+" ");
+            if(startingcol<endingcol){
+                for(int i=endingcol-1; i>=startingcol; i--){
+                    System.out.print(nums[endingrow][i]+" ");
+                }
             }
-            for(int i=endingrow-1; i>=startingrow+1; i--){
-                System.out.print(nums[i][startingcol]+" ");
+            if(startingrow<endingrow){
+                for(int i=endingrow-1; i>=startingrow+1; i--){
+                    System.out.print(nums[i][startingcol]+" ");
+                }
             }
             startingrow++;
             startingcol++;
