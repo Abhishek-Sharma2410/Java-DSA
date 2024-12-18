@@ -433,7 +433,7 @@ DSA in Java :- Started on (26/10/2024)
          Assignment Questions
 
         4. Write a merge sort fucntion that sorts a array of string lexicographically.
-        5. Write a program to find the Majority Element
+        5. Write a program to find the Majority Element.
            
    Chapter-16 (BackTracking Algorithm)
 
@@ -540,17 +540,51 @@ DSA in Java :- Started on (26/10/2024)
         7. Write a program to create a balanced BST using sorted array.
         8. Write a program find the size of largest BST in Binary Tree. (Leetcode Hard)
         9. Write a program to merge two given BSTs to reach at a Balanced Binary Search tree.
-        10. Write a code for Minimum Distance between Two Nodes in a Binary Tree.
-        11. Write a program to find the kth ancestor of a binary tree node.
-        12. Write a program to convert a tree to its sum tree.
 
-            Example:       1                      27
-                          / \                    / \
-                         2   3         =>       9   13
-                        / \ / \                / \  / \
-                       4   56  7              0   0 0  0
+        Home Work Questions.
 
-        Home-Work Questions
+        10. Range sum of BST (leetcode Easy 938).
+        11. Find the minimum difference with the node of BST with the given element.
 
-        12. Write a program to find if a binary tree is univalued or not (have same value in each node or not).
+   Chapter-24 (Priorty Queues)
+
+        1. Write a program to demonstrate how Priority Queues are implemented in Java Collections framework.
+        2. Write a program for making a student class comparable on the basis of its rank using priority queue.
+
+   Chapter-25 (Heaps Data Structure)
+
+        1. Write a program to insert an element in heap and in the same function implement peek functionality and deletion in the same function.
+        2. Write a program for sorting an array using Heap Sort.
+        3. Write a program for nearby cars similar to problem 973 on leetcode k-closest points to origin.
+        4. Write a program for connecting k ropes with minimum cost.
+        4. Write a program for the weakest soldier problem.
+        5. Write a program for sliding window maximum (leetcode hard).
+
+   Chapter-25 (Hashmap and Hashset Data Structure)
+
+        1. Write a program to demonstrate how hashmaps are created in java and perform operation like insert, getting the value of specific key, if the particular key exists in the hashmap or not.
+        2. Write a program for internal implementation of Hashmaps.
+        3. Write a program for Linked Hashmaps what are the implementation.
+        4. Write a program for Treemaps what are the implementation in the same file of LinkedHashMaps.
+        4. Write a program for the majority element problem.
+        5. Write a program for Valid Anagrams.
+        6. Write a program to define a HashSet and perform all the operations.
+        7. Write a program to iterate over HashSet with the help of iterators of java in the above file.
+        8. Write a program to find the unique elements in the array.
+        9. Write a program to find the itinerary from the tickets.
+        10. Write a program to find the union and intersection of two arrays.
+        
+   Chapter-26 (Trie Data Structure)
+
+        1. Write a program to demonstrate how Trie are created in java.
+        2. Write a program for insertion in Trie Data Structure.
+        3. Write a program for search of a key word in the trie Data Structure.
+        4. Write a program for word break problem which is 139 leetcode medium question.
+        4. Write a program for Prefix Problem (GFG Hard google, Mircosoft).
+        5. Write a program for Valid Anagrams.
+        6. Write a program to define a HashSet and perform all the operations.
+        7. Write a program to iterate over HashSet with the help of iterators of java in the above file.
+        8. Write a program to find the unique elements in the array.
+        9. Write a program to find the itinerary from the tickets.
+        10. Write a program to find the union and intersection of two arrays.
         

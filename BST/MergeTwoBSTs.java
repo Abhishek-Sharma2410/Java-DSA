@@ -48,21 +48,17 @@ class BinaryTree{
         int i=0, j=0; 
         while(i<list1.size() && j<list2.size()){
             if(list1.get(i) <= list2.get(j)){
-                finalList.add(list1.get(i));
-                i++;
+                finalList.add(list1.get(i++));
             }
             else{
-                finalList.add(list2.get(j));
-                j++;
+                finalList.add(list2.get(j++));
             }
         }
         while(i<list1.size()){
-            finalList.add(list1.get(i));
-            i++;
+            finalList.add(list1.get(i++));
         }
         while(j<list2.size()){
-            finalList.add(list2.get(j));
-            j++;
+            finalList.add(list2.get(j++));
         }
         Node root = createBalancedBST(finalList, 0, finalList.size()-1);
         return root;
