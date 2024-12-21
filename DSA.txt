@@ -580,11 +580,16 @@ DSA in Java :- Started on (26/10/2024)
         2. Write a program for insertion in Trie Data Structure.
         3. Write a program for search of a key word in the trie Data Structure.
         4. Write a program for word break problem which is 139 leetcode medium question.
-        4. Write a program for Prefix Problem (GFG Hard google, Mircosoft).
-        5. Write a program for Valid Anagrams.
-        6. Write a program to define a HashSet and perform all the operations.
-        7. Write a program to iterate over HashSet with the help of iterators of java in the above file.
-        8. Write a program to find the unique elements in the array.
-        9. Write a program to find the itinerary from the tickets.
-        10. Write a program to find the union and intersection of two arrays.
+        5. Write a program for Prefix Problem (GFG Hard google, Mircosoft).
+
+   Chapter-26 (Graphs)
+
+        1. Write a program to demonstrate how Graphs are created in java.
+        2. Write a program for printing all the neighbour elements.
+        3. Write a program for Breadth first Search.
+        4. Write a program for Depth first Search.
+        5. Write a program for if graph has a path from source to destination.
+        6. Write a program for traverse the non connected graphs.
+        7. Write a code for cycle detection in a undirected graphs.
+
         
