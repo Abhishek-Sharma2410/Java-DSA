@@ -582,7 +582,7 @@ DSA in Java :- Started on (26/10/2024)
         4. Write a program for word break problem which is 139 leetcode medium question.
         5. Write a program for Prefix Problem (GFG Hard google, Mircosoft).
 
-   Chapter-26 (Graphs)
+   Chapter-27 (Graphs)
 
         1. Write a program to demonstrate how Graphs are created in java.
         2. Write a program for printing all the neighbour elements.
@@ -591,5 +591,10 @@ DSA in Java :- Started on (26/10/2024)
         5. Write a program for if graph has a path from source to destination.
         6. Write a program for traverse the non connected graphs.
         7. Write a code for cycle detection in a undirected graphs.
-
+        8. Write a program for detecting a graph is a Bipartite Graph or not.
+        9. Write a program for detecting a cycle in a directed graph.
+        10. Write a code for Topological sorting.
+        11. Write code for Topological Sorting using BFS Kahn's Alogrithm.
+        12. Write the solution for Leetcode Medium 210 Course Schedule - II
+        13. Write a code for printing all paths from source to target (leetcode medium - 797)
         

@@ -1,18 +1,49 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 public class anycode{
-    public static boolean isPalindrome(String str){
-        str = str.toLowerCase();
-        int start = 0, end = str.length()-1;
-        while(start<end){
-            if(str.charAt(start)!=str.charAt(end)){
-                return false;
-            }
-            start++;
-            end--;
+    private static class Edge{
+        int source;
+        int destination;
+        
+        Edge(int source, int destination){
+            this.source = source;
+            this.destination = destination;
         }
-        return true;
+    }
+    public static void createGraph(ArrayList<Edge> graph[]){
+        for(int i=0; i<graph.length; i++){
+            graph[i] = new ArrayList<>();
+        }
+        
+        graph[0].add(new Edge(0, 1));
+        graph[1].add(new Edge(1, 0));
+
+        graph[1].add(new Edge(1, 2));
+        graph[2].add(new Edge(2, 1));
+
+        graph[1].add(new Edge(1, 3));
+        graph[3].add(new Edge(3, 1));
+    }
+    public static void BFS(ArrayList<Edge> graph[]){
+        Queue<Integer> q = new LinkedList<>();
+        boolean isVisited[] = new boolean[graph.length];
+        q.add(0);
+        while(!q.isEmpty()){
+            int element = q.remove();
+            
+            if(!isVisited[element]){
+                System.out.print(element);
+                isVisited[element] = true;
+                for(int i=0; i<graph[element].size(); i++){
+                    q.add(graph[element].get(i).destination);
+                }
+            }
+        }
     }
     public static void main(String args[]){
-        String str = "Racecar";
-        System.out.println(isPalindrome(str));
+        ArrayList<Edge> graph[] = new ArrayList[4];
+        createGraph(graph);
+        BFS(graph);
     }
 }
