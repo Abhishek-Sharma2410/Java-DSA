@@ -597,4 +597,7 @@ DSA in Java :- Started on (26/10/2024)
         11. Write code for Topological Sorting using BFS Kahn's Alogrithm.
         12. Write the solution for Leetcode Medium 210 Course Schedule - II
         13. Write a code for printing all paths from source to target (leetcode medium - 797)
-        
+        14. Write a code for Dijkstra's Algorithm.
+        15. Write a code for Topological Sort using Kahn's Algorithm.
+        16. Write a code for Bellman Ford Algorithm.
+        17. Write a code for finding the Minimum spanning Tree using Prims Algorithm.
