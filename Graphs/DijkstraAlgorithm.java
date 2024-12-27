@@ -67,7 +67,7 @@ public class DijkstraAlgorithm{
                     
                     if(shortestPath[u] + weight < shortestPath[v]){
                         shortestPath[v] = shortestPath[u] + weight;
-                        pq.add(new Pair(v, shortestPath[v]));
+                        pq.add(new Pair(v, shortestPath[v]));   
                     }
                 }
             }

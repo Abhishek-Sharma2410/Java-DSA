@@ -601,3 +601,5 @@ DSA in Java :- Started on (26/10/2024)
         15. Write a code for Topological Sort using Kahn's Algorithm.
         16. Write a code for Bellman Ford Algorithm.
         17. Write a code for finding the Minimum spanning Tree using Prims Algorithm.
+        18. Write a code for finding the cheaptest flights with k stops problems.
+        19. Write a code for connect cities with minimum cost.
