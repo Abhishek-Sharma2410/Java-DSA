@@ -603,3 +603,29 @@ DSA in Java :- Started on (26/10/2024)
         17. Write a code for finding the Minimum spanning Tree using Prims Algorithm.
         18. Write a code for finding the cheaptest flights with k stops problems.
         19. Write a code for connect cities with minimum cost.
+        20. Write a code for Disjoint Set or Union find Data Structure.
+        21. Write a code for Kruskal's Algorithm.
+
+   Chapter-28 (Dynamic Programming (DP))
+
+        1. Write a program for calculating a fibnoacci Number using DP memoization and Tabulation.
+        2. Write a program for Climbing Stairs on leetcode Problem - 70.
+        3. Write a program for 0-1 Knapsack problem with recursion, memoization, tabulation, gfg medium.
+        4. Write a program for Target Sum Subset.
+        5. Write a program for unbounded knapsack.
+        6. Write a program for coin change problem.
+        7. Write a code for rod cutting problem.
+        8. Write a program for finding the longest common subsequence with recursion, memoization, tabulation.
+        9. Write a program for finding longest Common Substring.
+        10. Write a code for finding longest Incresing subsequence.
+        11. Write code for Topological Sorting using BFS Kahn's Alogrithm.
+        12. Write the solution for Leetcode Medium 210 Course Schedule - II
+        13. Write a code for printing all paths from source to target (leetcode medium - 797)
+        14. Write a code for Dijkstra's Algorithm.
+        15. Write a code for Topological Sort using Kahn's Algorithm.
+        16. Write a code for Bellman Ford Algorithm.
+        17. Write a code for finding the Minimum spanning Tree using Prims Algorithm.
+        18. Write a code for finding the cheaptest flights with k stops problems.
+        19. Write a code for connect cities with minimum cost.
+        20. Write a code for Disjoint Set or Union find Data Structure.
+        21. Write a code for Kruskal's Algorithm.
